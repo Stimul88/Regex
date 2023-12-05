@@ -1,0 +1,12 @@
+body {
+    color: #999;
+}
+
+.decimal {
+    list-style-type: decimal;
+}
+
+.lower-roman {
+    list-style-type: lower-roman;
+}
+
