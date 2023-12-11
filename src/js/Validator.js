@@ -4,7 +4,7 @@ export default class Validator {
   }
 
   validateUsername () {
-    if (/(^[^0-9-_а-яА-Я])([a-zA-Z-_][0-9]{0,3})+([^0-9-_]$)/.test(this.name)) {
+    if (/(^[a-zA-Z])([a-zA-Z-_][0-9]{0,3})+([a-zA-Z]$)/.test(this.name)) {
       return 'Принято'
     } else {
       return '1. Допустимы только латинские буквы, символы тире -, подчёркивания _ и цифры (0-9)\n' +
